@@ -26,7 +26,7 @@ device (or re-pair it) so the converter's handshake actually runs.
 | DP | Exposed as | Type | Access |
 |----|------------|------|--------|
 | 1  | `system_mode` (`heat`/`off`) | bool | read/write |
-| 16 | `current_heating_setpoint` (0-111°C) | raw integer, unscaled | read/write |
+| 16 | `current_heating_setpoint` (0-120°C) | raw integer, unscaled | read/write |
 | 24 | `local_temperature` | raw integer, unscaled | read only |
 | 40 | `child_lock` | bool (LOCK/UNLOCK) | read/write |
 

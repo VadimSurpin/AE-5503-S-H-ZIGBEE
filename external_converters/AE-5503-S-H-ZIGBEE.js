@@ -13,7 +13,7 @@ const definition = {
     exposes: [
         e.climate()
             .withSystemMode(['off', 'heat'], ea.STATE_SET)
-            .withSetpoint('current_heating_setpoint', 0, 111, 1, ea.STATE_SET)
+            .withSetpoint('current_heating_setpoint', 0, 120, 1, ea.STATE_SET)
             .withLocalTemperature(ea.STATE),
         e.child_lock(),
     ],
