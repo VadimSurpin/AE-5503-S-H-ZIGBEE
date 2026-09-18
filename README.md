@@ -1,5 +1,7 @@
 # AE-5503-S-H-ZIGBEE Sauna Thermostat — Zigbee2MQTT External Converter
 
+![Device display](images/device-display.jpg)
+
 Zigbee2MQTT external converter for a Tuya-based sauna thermostat sold under the
 part number **AE-5503-S-H-ZIGBEE**, identified by Zigbee as:
 
